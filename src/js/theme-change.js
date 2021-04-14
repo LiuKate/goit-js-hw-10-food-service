@@ -31,7 +31,7 @@ function onSwitchClick(evt) {
 
 function checkLocalStorageTheme() {
 
-    if (localStorageTheme === 'dark-theme') {
+    if (localStorageTheme === Theme.DARK) {
         switchRef.checked = true;
     }
     else {
